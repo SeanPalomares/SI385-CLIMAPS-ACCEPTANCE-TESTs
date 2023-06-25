@@ -1,11 +1,11 @@
-Feature: Pagina Responsive
+Feature: Contacto
 
-    Scenario: Un usuario usa la pagina en diferentes dispositivos
+    Scenario: Un usuario desea ponerse en contacto con nostros para reportar un error
 
         Como usuario
-        Quiero poder usar la pagina en diferentes dispositivos con comodidad
-        Para poder mantenerme informado en todo lugar
+        Quiero poder poner en contacto con los desarrolladores de la pagina
+        Para poder reportar un error
 
-        Given el usuario va a usar la pagina en uno de sus dispositivos
-        When entre a la pagina está se acomodorá al tamaño de la ventana en su dispostivo
-        Then el usuario podrá mantenerse informado desde cualquier dispositivo
+        Given el usuario ha experimientado un error en el servicio
+        When de click el boton Contacto
+        Then el usuario podrá ver la información de contacto de Climaps

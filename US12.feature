@@ -1,4 +1,4 @@
-Feature: Responsive Landing Page
+Feature: Pagina Responsive
 
     Scenario: Un usuario usa la pagina en diferentes dispositivos
 
